@@ -1,0 +1,30 @@
+header{
+    background-color: whitesmoke;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+table{
+    text-align: center; 
+    margin: auto;
+}
+
+img{
+    display:block; 
+    margin:auto;
+}
+
+.judul{
+    color: red;
+    font-family: sans-serif;
+}
+
+.bundar{
+    border-radius: 50%;
+}
+
+.insta{
+    text-align: center;
+}
