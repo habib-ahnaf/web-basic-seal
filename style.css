@@ -16,6 +16,10 @@ img{
     margin:auto;
 }
 
+.gambar{
+    width: 100%;
+}
+
 .tengah{
     width:800px;
 }
@@ -61,4 +65,16 @@ img{
   
   .nav li a:hover {
     background-color: #111;
+  }
+
+  @media(min-width: 768px){
+    .gambar{
+        width: 60%;
+    }
+  }
+
+  @media(min-width: 992px){
+    .gambar{
+        width: 35%;
+    }
   }
