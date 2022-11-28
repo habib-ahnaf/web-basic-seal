@@ -1,80 +1,37 @@
-header{
-    background-color: whitesmoke;
+.image-hero{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
-h1, h2, h3{
-    text-align: center;
+.title{
+    font-family: 'Raleway', sans-serif;
 }
 
-table{
-    text-align: center; 
-    margin: auto;
+.subtitle{
+    letter-spacing: 10px;
 }
 
-img{
-    display:block; 
-    margin:auto;
+#hero{
+    height: 95vh;
 }
 
-.gambar{
-    width: 100%;
+.text-about{
+    text-align: justify;
+    letter-spacing: 5px;
 }
 
-.tengah{
-    width:800px;
+.image-about{
+    height: 350px;
+    object-fit: cover;
 }
 
-.judul{
-    color: red;
-    font-family: sans-serif;
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
 }
 
-.bundar{
-    border-radius: 50%;
+#hero1{
+    height: 95vh;
+    background-image: url(../image/wallpaperflare.com_wallpaper.jpg);
 }
-
-#kiri{
-    width:250px; 
-    float:left;
-}
-
-#kanan{
-    width:300px; 
-    float: left;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .nav li {
-    float: left;
-  }
-  
-  .nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .nav li a:hover {
-    background-color: #111;
-  }
-
-  @media(min-width: 768px){
-    .gambar{
-        width: 60%;
-    }
-  }
-
-  @media(min-width: 992px){
-    .gambar{
-        width: 35%;
-    }
-  }
